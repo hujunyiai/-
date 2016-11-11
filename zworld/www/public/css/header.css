@@ -1,0 +1,61 @@
+
+/*头部*/
+#nav{
+	height: 30px;
+	background: #323232;
+	line-height: 30px;
+}
+header>img{
+	display: block;
+}
+#nav ul{
+	position: relative;
+}
+#log{
+	position: absolute;
+	left: 30px;
+	top: 6px;
+}
+#nav ul img{
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+#nav li{
+	float: left;
+	margin-right: 30px;
+}
+#nav li:first-of-type{
+	margin-left: 117px;
+}
+#nav a{
+	color: #c0c0c0;
+	font-weight: bold;
+}
+/*头部右侧*/
+#nav .right{
+	float: right;
+	margin-right: 16px;
+	position: relative;
+}
+#nav .right a{
+	margin-right: 16px;
+}
+#nav .right img{
+	vertical-align: middle;
+}
+#nav .right a:first-of-type img{
+	position: absolute;
+	right: 229px;
+	top: 7px;
+}
+#nav input{
+	display: none;
+}
+#nav .right>img{
+	position: absolute;
+	top: 9px;
+	right: 214px;
+}
+#super a{
+	color: #16b041;
+}
